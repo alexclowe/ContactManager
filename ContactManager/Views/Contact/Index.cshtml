@@ -1,15 +1,15 @@
 ﻿@model IEnumerable<ContactManager.Models.Contact>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Contact Index";
 }
 
-<h2>Index</h2>
+<h2>Contacts</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table>
+<table class="gridtable">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.FirstMidName)
